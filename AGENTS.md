@@ -30,3 +30,9 @@ O produto é um porte real de DOOM para browsers. O iPad é um perfil de uso, n�
 - Verifique teclado, foco, suspensão, áudio, saves, conteúdo importado, atualização e reabertura offline quando afetados. O pipeline de `main` faz o gate de publicação.
 - Não declare FPS, latência, consumo, acessibilidade integral ou compatibilidade universal sem evidência. Chromium/WebKit desktop não certificam Chrome no iPad nem outros dispositivos.
 - Entregue resultado, evidências, riscos restantes e rollback. O repositório é `adhenawer/Doom-classic-browser`; preserve a URL e os dados existentes durante evolução.
+
+## Preferência de publicação do usuário
+
+- Em 31/10/2026, o usuário autorizou publicar a versão preparada e estabeleceu a preferência permanente de fazer deploy após implementar e validar as alterações solicitadas neste projeto, sem pedir nova confirmação a cada entrega.
+- Inclua o envio das fontes, a execução do pipeline de publicação e a verificação da versão publicada na conclusão das próximas alterações. Preserve a URL existente e os dados dos jogadores.
+- Um ZIP ou build local não equivale a deploy. Se houver bloqueio de ambiente, acesso ou validação, informe o impedimento e o estado real da publicação; não anuncie sucesso sem verificar o deploy.
